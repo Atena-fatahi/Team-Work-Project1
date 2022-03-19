@@ -1,63 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
+  <!--THE INFO-->
   <body>
     <main>
-      <section>
-        <h2>Sign up</h2>
-        <form action="" class="form" method="post">
-          <section class="inputs_container">
-            <figure>
-              <img src="" alt="" class="name_img" />
-            </figure>
-            <figcaption>
-              <input type="text" class="name_input" id="name" />
-            </figcaption>
-          </section>
+      <section class="sign-up-form">
+        <h1>sign up</h1>
 
-          <section class="inputs_container">
-            <figure>
-              <img src="" alt="" class="email_img" />
-            </figure>
-            <figcaption>
-              <input type="text" class="email_input" id="email" />
-            </figcaption>
-          </section>
+        <form>
+          <input type="text" class="input-boxs" placeholder="your name" />
 
-          <section class="inputs_container">
-            <figure>
-              <img src="" alt="" class="pass_img" />
-            </figure>
-            <figcaption class="pass_figcap">
-              <input type="password" class="password_input" id="password" />
-              <img src="" alt="" class="show_pass_img" />
-            </figcaption>
-          </section>
+          <input type="email" class="input-boxs" placeholder="your Email" />
 
-          <section>
-            <input type="checkbox" id="agreement" name="agree" />
-            <label for="agreement"
-              >I reed and agree to <a href="#">Terms & Conditions</a></label
+          <input
+            type="password"
+            class="input-boxs"
+            placeholder="your password"
+          />
+          <p>
+            <input type="checkbox" class="submit-btn" /><span>
+              I read and agree <a class="link" href="#"> term & condition</a></span
             >
-            <!-- <figure>
-
-
-              </figure>
-              <figcaption>
-
-              </figcaption> -->
-
-            <button type="submit">CREATE ACCOUNT</button>
-          </section>
+          </p>
+          <button type="button" class="signup-btn">Creat your account</button>
+          <hr />
+          <p class="or">OR</p>
+          <button type="button" class="google">Login with Google</button>
+          <p>Do you have an account ? <a class="link" href="#">Sign in</a></p>
         </form>
-      </section>
-      <section>
-        <p>Already have an account?<a href="#">Sign in</a></p>
       </section>
     </main>
   </body>
