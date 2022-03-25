@@ -11,7 +11,7 @@ body {
   box-shadow: 0 0 1em rgb(109, 25, 217);
   background: white;
   padding: 20px;
-  margin: 8% auto 0;
+  margin: 7% auto 0;
   text-align: center;
   border-radius: 30px;
   margin-bottom: 10px;
@@ -24,17 +24,30 @@ button {
   /* background: none; */
   font-family: "Lobster", cursive;
 }
+.img {
+  width: 21px;
+  margin-right: 10px;
+}
+
+.inputs-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
 
 .input-boxs {
+  display: flex;
+  align-items: center;
   flex: 1 1 0%;
   outline: none;
   background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 20px;
-  margin:10px 0;
+  margin: 10px 0 18px 0;
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
   box-shadow: 0 0 1em rgb(109, 25, 217);
+  width: fit-content;
 }
 
 .input-boxs::placeholder {
@@ -63,14 +76,12 @@ button {
   display: block;
 }
 
-.signup-btn:hover{
-background-position: right center; /* change the direction of the change here */
-color: #fff;
-text-decoration: none;
+.signup-btn:hover {
+  background-position: right center; /* change the direction of the change here*/
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
-
-
-
 
 .google {
   background-color: #4cc9f0;
@@ -81,6 +92,7 @@ text-decoration: none;
   color: black;
   font-size: 1.25rem;
   text-align: center;
+  cursor: pointer;
 }
 .google:hover {
   background-position: right center;
@@ -95,5 +107,3 @@ text-decoration: none;
 .link:hover {
   color: red;
 }
-
-
