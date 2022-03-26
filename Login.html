@@ -13,30 +13,43 @@
   <body>
     <main>
       <section class="sign-up-form">
-        <h1>sign up</h1>
+        <h1>Sign up</h1>
 
-        <form>
-          <input type="text" class="input-boxs" placeholder="your name" />
+        <form id="loginForm">
+          <section class="inputs-content">
+            <section class="input-boxs">
+              <img src="" class="img" />
+              <input type="text" placeholder="your name" id="name" />
+            </section>
 
-          <input type="email" class="input-boxs" placeholder="your Email" />
+            <section class="input-boxs">
+              <img src="" class="img" />
+              <input type="email" placeholder="your Email" id="email" />
+            </section>
 
-          <input
-            type="password"
-            class="input-boxs"
-            placeholder="your password"
-          />
+            <section class="input-boxs" id="passCont">
+              <img src="" class="img" />
+              <input
+                type="password"
+                placeholder="your password"
+                id="password"
+              />
+            </section>
+          </section>
           <p>
-            <input type="checkbox" class="submit-btn" /><span>
-              I read and agree <a class="link" href="#"> term & condition</a></span
+            <input type="checkbox" class="submit-btn" id="checkbox" /><span>
+              I read and agree
+              <a class="link" href="#"> term & condition</a></span
             >
           </p>
-          <button type="button" class="signup-btn">Creat your account</button>
+          <button class="signup-btn">Creat your account</button>
           <hr />
           <p class="or">OR</p>
-          <button type="button" class="google">Login with Google</button>
-          <p>Do you have an account ? <a class="link" href="#">Sign in</a></p>
         </form>
+        <button class="google">Login with Google</button>
+        <p>Do you have an account ? <a class="link" href="#">Sign in</a></p>
       </section>
     </main>
+    <script src="Login.js"></script>
   </body>
 </html>
