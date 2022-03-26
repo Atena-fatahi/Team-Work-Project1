@@ -49,7 +49,9 @@ button {
   box-shadow: 0 0 1em rgb(109, 25, 217);
   width: fit-content;
 }
-
+.alert-pass {
+  box-shadow: 0 0 1em rgb(247, 52, 3);
+}
 .input-boxs::placeholder {
   color: rgb(68, 66, 66);
 }
